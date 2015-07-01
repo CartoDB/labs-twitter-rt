@@ -1,0 +1,9 @@
+[credentials]
+account_name={{youraccount}}
+username={{youruser}}
+password={{yourpass}}
+label={{yourlabel}}
+
+[output]
+folder={{folder-autput}}
+num_threads=30

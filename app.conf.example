@@ -1,0 +1,8 @@
+[cartodb]
+account_name={{cartodbaccount}}
+api_key={{cartodbapikey}}
+import_api_endpoint=https://{{cartodbaccount}}.cartodb.com/api/v1/imports/
+table_name={{tablename}}
+
+[intervals]
+run_after_s={{intervalinseconds}}
