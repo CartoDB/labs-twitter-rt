@@ -1,3 +1,6 @@
+[general]
+app_name=app
+
 [cartodb]
 account_name={{cartodbaccount}}
 api_key={{cartodbapikey}}
@@ -6,3 +9,8 @@ table_name={{tablename}}
 
 [intervals]
 run_after_s={{intervalinseconds}}
+days_back=1
+
+[twitter]
+# separate categories with a pipe "|" and keywords by spaces
+categories=#pepsi #pepsicola|#coca #cocacola

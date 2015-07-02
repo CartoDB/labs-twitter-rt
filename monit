@@ -1,0 +1,7 @@
+# Example monit configuration, put or link this file to
+# /etc/monit/conf.d/
+# and change "app" by your application name
+
+check process app with pidfile /var/run/sm/app.pid
+   start program = "/home/sm/bin/startpy -e start app" as uid "sm" and gid "sm"
+   stop program = "/home/sm/bin/startpy stop app" as uid "sm" and gid "sm"
